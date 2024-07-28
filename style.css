@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #515151;
+    font-size: 0.8em;
+    line-height: 2em;
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 0.2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,h2,h3 {
+    font-weight: normal;
+}
+
+.inner {
+    width: 90%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1 a {
+    color: #c9c9c9;
+}
+
+.cont-desc h1 {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.prof h2 {
+    margin-bottom: 60px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.prof h2 span {
+    color: #b1b1b1;
+    font-size: 0.4em;
+    line-height: 0.8em;
+}
+
+.cont h2 {
+    margin-bottom: 60px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.cont h2 span {
+    color: #b1b1b1;
+    font-size: 0.4em;
+    line-height: 0.8em;
+}
+
+.works li {
+    width: 250px;
+    margin: 0 50px 25px 0;
+    float: left;
+}
+
+.works li p {
+    padding-left: 10px;
+    padding-top: 23px;
+}
+
+.works li a .tool p {
+    font-size: 10px;
+    padding-top: 0;
+    color: #b1b1b1;
+}
+
+.works-img {
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    background-size: contain;
+}
+
+.works-img img {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #f7f7f7;
+    background-color: #fff;
+    font-size: 0.8em;
+}
+
+footer .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer small {
+    color: #D3D3D3;
+    letter-spacing: 0.1em;
+}
