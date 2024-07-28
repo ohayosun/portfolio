@@ -6,24 +6,24 @@
 header {
     width: 100%;
     border-bottom: 1px solid #f7f7f7;
-    background-color: #fff;
+    background-color: #ffffff;
     text-align: center;
 }
 
 header h1 {
     padding: 20px 0;
 }
- 
+
 h1 a {
-    color: #c9c9c9;
+   color: #c9c9c9;
 }
 
 body {
-    color: #515151;
-    font-size: 0.8em;
-    line-height: 2em;
-    font-family: Verdana, Geneva, sans-serif;
-    letter-spacing: 0.2em;
+   color: #515151;
+   font-size: 0.8em;
+   line-height: 2em;
+   font-family: Verdana, Geneva, sans-serif;
+   letter-spacing: 0.2em;
 }
 
 img {
@@ -48,152 +48,145 @@ h1,h2,h3 {
     max-width: 850px;
     margin: 0 auto;
 }
+
+.profile {
+   text-align: center;
+   margin-bottom: 30px;
+}
+
 .clearfix {
     display: table;
     clear: both;
     content: "";
 }
 
+ 
+nav {
+   float: right;
+}
+ 
+nav li {
+   display: inline;
+   margin-left: 15px;
+}
+ 
+nav a:hover, .about-cont a:hover {
+   color: #adadad;
+   transition: 0.2s;
+}
 
- 
- nav {
-    float: right;
- }
- 
- nav li {
-    display: inline;
-    margin-left: 15px;
- }
- 
- nav a:hover,
- .about-cont a:hover {
-    color: #adadad;
-    transition: 0.2s;
- }
-
- .pagetop {
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px 20px;
-    border-radius: 3px;
-    background: url(../img/bg_3.png);
-    color: #fff;
- }
+.pagetop {
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   padding: 10px 20px;
+   border-radius: 3px;
+   background: url(../img/bg_3.png);
+   color: #fff;
+}
 
 
- footer {
-    width: 100%;
-    padding: 20px 0;
-    border-top: 1px solid #f7f7f7;
-    background-color: #fff;
-    font-size: 0.8em;
- }
+footer {
+   width: 100%;
+   padding: 20px 0;
+   border-top: 1px solid #f7f7f7;
+   background-color: #fff;
+   font-size: 0.8em;
+}
  
- footer p {
-    order: 1;
- }
+footer p {
+   order: 1;
+}
  
- footer ul {
-    order: 2;
- }
+footer ul {
+   order: 2;
+}
  
- footer .inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
- }
+footer .inner {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
  
- footer ul li {
-    display: inline-block;
-    margin-left: 20px;
- }
+footer ul li {
+   display: inline-block;
+   margin-left: 20px;
+}
  
- footer small {
-    color: #D3D3D3;
-    letter-spacing: 0.1em;
- }
+footer small {
+   color: #D3D3D3;
+   letter-spacing: 0.1em;
+}
+
+.desc {
+   margin-top: 200px;
+   margin-bottom: 200px;
+}
+ 
+.cont h2 {
+   margin-bottom: 60px;
+   font-size: 2em;
+   text-align: center;
+}
+ 
+.cont h2 span {
+   color: #b1b1b1;
+   font-size: 0.4em;
+   line-height: 0.8em;
+}
+
+.prof h2 {
+   margin-bottom: 60px;
+   font-size: 2em;
+   text-align: center;
+}
+.prof h2 span {
+   color: #b1b1b1;
+   font-size: 0.4em;
+   line-height: 0.8em;
+}
 
 
- .cont {
-    width: 100%;
-    padding: 60px 0 70px;
-    background: url(bg_1.png) repeat;
- }
+.works li {
+   width: 250px;
+   margin: 0 50px 25px 0;
+   float: left;
+}
  
- .cont .more {
-    background: url(bg_2.png) repeat;
- }
+.works li:nth-child(3n) {
+   margin-right: 0px;
+}
  
- .cont .more:hover,
- .cont:nth-child(2n) .more:hover {
-    background: url(bg_3.png) repeat;
-    transition: 0.2s;
- }
+.works li p {
+   padding-left: 10px;
+   padding-top: 23px;
+   background: url(../img/ico_circle.png) no-repeat 0 7px;
+}
  
- .cont:nth-child(2n) {
-    background: url(bg_2.png) repeat;
- }
+.works li a .tool p {
+   font-size: 10px;
+   padding-top: 0;
+   color: #b1b1b1;
+}
  
- .cont:nth-child(2n) .more {
-    background: url(bg_1.png) repeat;
- }
+.works .more {
+   width: 40%;
+   padding: 15px 0;
+}
  
- .cont h2 {
-    margin-bottom: 60px;
-    font-size: 2em;
-    text-align: center;
- }
+.works-img {
+   position: relative;
+   width: 100%;
+   padding-top: 50%;
+   background-size: contain;
+}
  
- .cont h2 span {
-    color: #b1b1b1;
-    font-size: 0.4em;
-    line-height: 0.8em;
- }
-
-
-
-
- .works li {
-    width: 250px;
-    margin: 0 50px 25px 0;
-    float: left;
- }
+.works-img img {
+   position: absolute;
+   top: -3px;
+   left: -3px;
+}
  
- .works li:nth-child(3n) {
-    margin-right: 0px;
- }
- 
- .works li p {
-    padding-left: 10px;
-    padding-top: 23px;
-    background: url(../img/ico_circle.png) no-repeat 0 7px;
- }
- 
- .works li a .tool p {
-    font-size: 10px;
-    padding-top: 0;
-    color: #b1b1b1;
- }
- 
- .works .more {
-    width: 40%;
-    padding: 15px 0;
- }
- 
- .works-img {
-    position: relative;
-    width: 100%;
-    padding-top: 50%;
-    background-size: contain;
- }
- 
- .works-img img {
-    position: absolute;
-    top: -3px;
-    left: -3px;
- }
- 
- .works-img:hover img {
-    opacity: 70%;
- }
+.works-img:hover img {
+   opacity: 70%;
+}
