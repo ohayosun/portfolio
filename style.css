@@ -40,13 +40,18 @@ h1 a {
 
 .cont-desc h1 {
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    /*margin-top: 200px;
+    margin-bottom: 170px;*/
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-bottom: 40px;
+    background-color: #82adb8;
 }
 
 .profile {
     text-align: center;
     margin-bottom: 50px;
+    background-image: "icon.jpg";
 }
 
 .prof h2 {
@@ -129,18 +134,16 @@ footer {
     width: 100%;
     padding: 20px 0;
     border-top: 1px solid #f7f7f7;
-    background-color: #eb5a5a;
+    background-color: #82adb8;
     font-size: 0.8em;
 }
 
 footer .inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 footer small {
     color: #D3D3D3;
     letter-spacing: 0.1em;
 }
-
