@@ -54,6 +54,14 @@ h1 a {
     background-image: "icon.jpg";
 }
 
+.icon img{
+    align-items: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 60px;
+}
+
 .prof h2 {
     margin-bottom: 60px;
     font-size: 2em;

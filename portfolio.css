@@ -97,7 +97,7 @@ footer {
 */
  
 
- 
+ /*
 footer .inner {
    display: flex;
    align-items: center;
@@ -145,7 +145,7 @@ footer small {
    float: left;
 }
 */
- 
+ /*
 .works li:nth-child(3n) {
    margin-right: 0px;
 }
